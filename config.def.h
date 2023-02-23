@@ -12,7 +12,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Sauce Code Pro Nerd Font:size=16" };
-static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=16";
+static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=14";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -37,9 +37,11 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
+	{ NULL,       NULL,       "图片查看器", 0,          1,           -1 },
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
-	{ "microsoft-edge-stable",  NULL,       NULL,       1,       1,           -1 },
+	{ NULL,       "microsoft-edge-stable",   NULL,  1 << 1,  1,      -1 },
+	{ NULL,       "qq",       NULL,       1 << 6,       0,           -1 },
 };
 
 /* layout(s) */
