@@ -36,7 +36,7 @@ static const unsigned int alphas[][3]      = {
 	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
 };
 /* tagging */
-static const char *tags[] = { "\ueb01", "\ueb26", "\ueaa4", "\ueaae", "\uea83", "\ueb2d", "\ueb45", "\ueb58", "\ueb5c" };
+static const char *tags[] = { "󰖟", "", "󱉟", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
