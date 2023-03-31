@@ -1,3 +1,18 @@
+# dwm
+
+一个 Linux* 系统的动态窗口管理器
+
+个人定制版，主要实现了：
+
+- 浮动终端，按 `tab+grave` 呼出与隐藏
+- 自启动脚本，DWM 启动时自动调用一个脚本，在哪个位置忘了，想起来再补充吧
+- 状态栏美化：状态栏与屏幕有 8dp 的间距
+- 窗口美化：窗口与状态栏之间，窗口与屏幕之间，窗口与窗口之间均有 8dp 的间距
+- 还有其他一些事情，具体忘了
+
+*：Arch Linux 算 GNU/Linux 吗？存疑
+---
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
